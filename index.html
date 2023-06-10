@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css" type="">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <hr>
+                <p>Para acessar o área do projetista entre com os dados seguintes.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="usename"> 
+                            <img src="icon/profile.svg" alt="Profile">
+                            <input type="email" name="id" id="iid" placeholder="  email" required autocomplete="email" maxlength="30">
+                        <label for="id"></label>
+                    </div><br>
+                    <div class="password">
+                            <img src="icon/eye off.svg" alt="Password">
+                            <input type="password" name="password" id="ipass" placeholder="  password" required autocomplete="current-password" minlength="8" max="12">
+                        <label for="ipass"></label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a class="botao" href="#">Esqueci a senha <img src="icon/tooltip circle.svg"></a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
